@@ -17,7 +17,7 @@
       "exec",
       "ruby",
       "app.rb",
-      "-0",
+      "-o",
       "0.0.0.0"
     ],
     "logConfiguration": {
