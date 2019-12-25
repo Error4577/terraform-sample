@@ -1,6 +1,6 @@
 [
   {
-    "name": "samole-webapp",
+    "name": "sample-webapp",
     "image": "759807949322.dkr.ecr.ap-northeast-1.amazonaws.com/sample-image:latest",
     "cpu": 200,
     "memory": null,
