@@ -19,6 +19,7 @@ resource "aws_security_group" "instance" {
     protocol    = "-1"
     cidr_blocks = ["0.0.0.0/0"]
   }
+  depends_on = [aws_security_group.alb]
 }
 
 resource "aws_security_group" "alb" {
@@ -69,4 +70,5 @@ resource "aws_security_group" "db" {
       aws_security_group.instance.id
     ]
   }
+  depends_on = [aws_security_group.instance]
 }
