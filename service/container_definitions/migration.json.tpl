@@ -30,7 +30,7 @@
       },
       {
         "name": "RACK_ENV",
-        "valueFrom": "RACK_ENV"
+        "valueFrom": "APP_ENV"
       }
     ]
   }
